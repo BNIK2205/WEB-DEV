@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation with Background Video</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">Responsive NavBar</div>
+        <ul class="navbar-menu" id="navbar-menu">
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">Destinations</a></li>
+            <li><a href="#section3">Packages</a></li>
+            <li><a href="#section4">Gallery</a></li>
+            <li><a href="#section5">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bg-color">
+        <div class="part" data-background="#72ffdc" id="section1">
+            <div class="content">
+                <h1>Home</h1>
+            </div>
+        </div>
+        <div class="part" data-background="#3c8ced" id="section2">
+            <div class="content">
+                <h1>Destinations</h1>
+            </div>
+        </div>
+        <div class="part" data-background="#d83ced" id="section3">
+            <div class="content">
+                <h1>Packages</h1>
+            </div>
+        </div>
+        <div class="part" data-background="#fa6363" id="section4">
+            <div class="content">
+                <h1>Gallery</h1>
+            </div>
+        </div>
+        <div class="part" data-background="#ffcb72" id="section5">
+            <div class="content">
+                <h1>Contact</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/scrollie@1.0.0/dist/scrollie.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
